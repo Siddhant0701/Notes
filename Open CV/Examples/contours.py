@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread('Photos/monke.jpg')
+img = cv2.imread('../Photos/monke.jpg')
 cv2.imshow('Bird', img)
 
 

@@ -9,7 +9,7 @@ import cv2
 
 # VIDEO
 
-vid = cv2.VideoCapture('Videos/clock.mp4')
+vid = cv2.VideoCapture('../Videos/clock.mp4')
 
 while True:
     isTrue, frame = vid.read()

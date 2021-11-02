@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread('Photos/tree.jpg')
+img = cv2.imread('../Photos/tree.jpg')
 cv2.imshow('Original', img)
 
 ## Grayscale
