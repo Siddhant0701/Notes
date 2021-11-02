@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('Photos/scenery.jpg')
+img = cv2.imread('../Photos/scenery.jpg')
 cv2.imshow('Landscape', img)
 
 b,g,r = cv2.split(img)

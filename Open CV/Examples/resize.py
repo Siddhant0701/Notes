@@ -10,7 +10,7 @@ def rescale (frame, scale = 0.75):
     return (cv2.resize(frame,dimensions, interpolation=cv2.INTER_AREA ))
 
 
-vid = cv2.VideoCapture('Videos/clock.mp4')
+vid = cv2.VideoCapture('../Videos/clock.mp4')
 
 while True:
     isTrue, frame = vid.read()

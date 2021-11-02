@@ -1,7 +1,7 @@
 import cv2
 import matplotlib.pyplot as plt
 
-img = cv2.imread('Photos/monke.jpg')
+img = cv2.imread('../Photos/monke.jpg')
 cv2.imshow('Monke',img)
 
 plt.imshow(img) ## MAKES RGB

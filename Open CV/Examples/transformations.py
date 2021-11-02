@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('Photos/dog.jpg')
+img = cv2.imread('../Photos/dog.jpg')
 cv2.imshow('Dog',img)
 
 
