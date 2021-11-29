@@ -4,4 +4,6 @@ Includes implementation and theoretical details for deep learning
 
 ## Links
 
-https://deeplizard.com/learn/video/gZmobeGL0Yg
+[Deeplizard material](https://deeplizard.com/learn/video/gZmobeGL0Yg)
+
+[Keras API documenatation](keras.io/api)
