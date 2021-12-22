@@ -74,6 +74,10 @@
 
 - `animation-name`      : Sets name of animation
 - `animation-duration`
+- `animation-fill-mode`
+- `animation-iteration-count` : Can be a number or infinite.
+- `animation-timing-function` : Can be ease(default), ease-in, ease-out or linear.
+  - cubic-beizer function can also be used as a timing function.
 
 <br/>
 
@@ -107,13 +111,21 @@
 - `grid-areas`                      : For item
 
 
-## Selectors
+## Class Types
 
 - Class         :   Starts with a period(`.`)
 - HTML elements :   Named the same way as the tag is.
 - Id            :   Starts with a hash(`#`)
 - Type          :   Format is `[attr = value]`
 - Psuedo Class  :   Format is `[element]:{pseudo-class}`
+
+<br/>
+
+## CSS Selectors
+- Descendant        : Selects all descendants of the first that are the second. Example: `div a{}`
+- Adjacent Sliding  : Siblings in order. Example: `div+a{}`
+- Child             : Immidiate children. Examples: `div > a{}`
+- General Sibling   : Next siblings. Examples: `div ~ a{}`
 
 <br/>
 
@@ -169,3 +181,5 @@ Each percentage configuration block includes the configuration based on time.
   - vw
   - vmin
   - vmax
+- [Link for pseudo classes](https://www.w3schools.com/css/css_pseudo_classes.asp)
+- 

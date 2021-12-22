@@ -57,6 +57,7 @@ Notes about HTML.
 
 - `<style>`             - Used for CSS styling inside the html file.
 - `<link>`              - Used to import stylesheet information. Attributes: `rel`, `type`, `href`
+- `<script>`            - Used to add Javascript. Attributes: `src`.
 
 <br/>
 
